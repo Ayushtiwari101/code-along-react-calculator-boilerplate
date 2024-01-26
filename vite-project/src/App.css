@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.buttons {
+  background-color: rgb(11, 11, 11);
+  color: rgb(250, 248, 248);
+  height: 80px;
+  width: 80px;
+  margin: 3px;
+  font-size: 25px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 0, 0);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  &:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+    
+  }
+}
+
+.ac {
+  background-color: rgb(13, 13, 13);
+  margin: 3px;
+  color: rgb(250, 249, 249);
+  height: 80px;
+  width: 122px;
+  font-size: 25px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 0, 0);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  &:hover {
+    background-color: rgb(242, 246, 241);
+    color: rgb(11, 11, 11);
+    border: 1px solid rgb(255, 255, 255);
+    transform: scale(1.1);
+  }
+}
+
+.del {
+  background-color:rgb(7, 7, 7);
+  color: rgb(254, 251, 251);
+  margin: 3px;
+  height: 80px;
+  width: 122px;
+  font-size: 25px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 0, 0);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  &:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    transform: scale(1.1);
+  }
+}
+
+.equal {
+  background-color: rgb(6, 6, 6);
+  color: rgb(255, 254, 254);
+  height: 80px;
+  margin: 3px;
+  width: 80px;
+  font-size: 25px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 0, 0);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  &:hover {
+    background-color: rgb(64, 224, 78);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transform: scale(1.1);
+  }
+}
+
+.output {
+  position: relative;
+  border-radius: 0px;
+  background-color: rgb(255, 255, 255);
+  width: 337px;
+  height: 80px;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 3px;
+  bottom: 2vh;
+}
+.output h1 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 30px;
+  padding: 20px;
+  overflow: hidden;
+  color: black;
+}
+
+.main {
+  padding: 10px;
+  background-color: #5e5f5e;
+  border-radius: 20px;
+}
